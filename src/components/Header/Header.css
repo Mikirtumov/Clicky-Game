@@ -1,15 +1,19 @@
 .header {
     width: 100%;
     font-size: 2rem;
-    color: #2A77AE;
+    color: rgb(46, 174, 42);
     margin-bottom: 10px;
+    
   }
   
   .title {
     float: left;
+    font-family: 'Bowlby One SC', cursive;
   }
   
   .scores {
     float: right;
+    font-family: 'Bowlby One SC', cursive;
+
   }
   

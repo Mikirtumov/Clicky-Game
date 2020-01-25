@@ -13,7 +13,7 @@
     height: 100%;
     overflow: hidden;
     text-align: center;
-
+    /* background: url(https://image.freepik.com/free-photo/green-grass-field-background-soccer-football-sports_64749-1823.jpg); */
   }
   .card > .img-container > img {
     width: 60%
