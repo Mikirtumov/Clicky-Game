@@ -1,19 +1,22 @@
 .card {
-    background: rgb(0, 0, 0);
-    border-radius: 2px;
+    /* background: rgb(0, 0, 0); */
+    border-radius: 500px;
+    border-color: black;
     height: 250px;
     margin: 1rem;
     position: relative;
     width: 355px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 1px 9px #333, 0 1px 12px #333;
     text-align: left;
+    
   }
   
   .card > .img-container {
     height: 100%;
     overflow: hidden;
     text-align: center;
-    /* background: url(https://image.freepik.com/free-photo/green-grass-field-background-soccer-football-sports_64749-1823.jpg); */
+
+
   }
   .card > .img-container > img {
     width: 60%
@@ -24,8 +27,22 @@
     padding-right: 1rem;
     font-size: 15px;
   }
-  
-  
+  .card > .img-container > :hover{
+     cursor: pointer;
+  }
+  @media only screen and (max-width: 1100px) {
+    .card {
+     
+      border-radius: 500px;
+      border-color: black;
+      height: 140px;
+      margin: 1rem;
+
+      width: 200px;
+
+      
+    }
+  }
   
   
   
